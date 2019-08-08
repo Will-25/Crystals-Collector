@@ -58,7 +58,7 @@ body {
     margin-left: 45px;
     margin-top: 10px;
     height:20px;
-    width:545px;
+    width:200px;
 }
 
 #totalScore {
@@ -70,4 +70,24 @@ body {
     margin-bottom: 100px;
     margin-left: 45px;
     margin-top: 15px;
+}
+
+#purple {
+    height:100px;
+    width:100px;
+}
+
+#blue {
+    height:100px;
+    width:100px;
+}
+
+#red {
+    height:100px;
+    width:100px;
+}
+
+#pink {
+    height:100px;
+    width:100px;
 }
