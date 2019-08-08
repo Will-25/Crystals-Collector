@@ -1,0 +1,73 @@
+.name {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 60px;
+    color: yellow;
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/reflection-1618045_1280.jpg");
+    background-size: 100%;
+}
+
+#instructions {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    Max-width: 35%;
+    margin-left: 40px;
+    height:280px;
+    background-color:white;
+    padding: 10px;
+}
+
+#random {
+    background-color:white;
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 140px;
+    float:left;
+}
+#winslose {
+    background-color: white;
+    float:left;
+    
+    height: 150px;
+    width: 387px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 140px;
+    
+}
+
+
+#crystals {
+    background-color:white;
+    clear:both;
+    width: 476px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+#scoreText {
+    background-color:white;
+    margin-left: 45px;
+    margin-top: 10px;
+    height:20px;
+    width:545px;
+}
+
+#totalScore {
+    background-color:white;
+    text-align: center;
+    line-height: 100px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 100px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
