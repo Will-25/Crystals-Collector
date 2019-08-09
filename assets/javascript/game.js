@@ -1,55 +1,69 @@
-$( document ).ready(function() {
+$(document).ready(function ready() {
 
     var random1 = Math.floor(Math.random() * 12 + 1);
     var random2 = Math.floor(Math.random() * 12 + 1);
     var random3 = Math.floor(Math.random() * 12 + 1);
     var random4 = Math.floor(Math.random() * 12 + 1);
     randomStart = Math.floor(Math.random() * 120 + 19);
-    wins = 0;
-    losses = 0;
+    wins = 1;
+    losses = 1;
     totalScore = 0;
+
+
+    $("#random").text(randomStart);
+
+    function winner() {
+        if (totalScore === randomStart) {
+            $("#wins").text("Wins: " + wins++);
+            $("#winslose").text("You win!!!");
+            ready();
     
-   
-$("#random").append(randomStart);
-
-
-
-
-$("#crystal1").on("click", function(){
-
     
-    $("#totalScore").text(totalScore += random1)
+        }
+        else if (totalScore > randomStart) {
+            $("#losses").text("Losses: " + losses++);
+            $("#winslose").text("You lose!!!!!");
+            ready();
+        }
+    }   
+
+ 
+
+
+
+
+    $("#crystal1").on("click", function () {
+
+        $("#totalScore").text(totalScore += random1)
+
+        winner();
+
+    });
+
+    $("#crystal2").on("click", function () {
+
+        $("#totalScore").text(totalScore += random2)
+        winner();
+
+    });
+
+    $("#crystal3").on("click", function () {
+
+        $("#totalScore").text(totalScore += random3)
+        winner();
+
+    });
+    $("#crystal4").on("click", function () {
+
+        $("#totalScore").text(totalScore += random4)
+        winner();
+
+    });
+
+
 
 
 });
-$("#crystal2").on("click", function(){
-
-    
-    $("#totalScore").text(totalScore += random2)
 
 
-});
-$("#crystal3").on("click", function(){
 
-    
-    $("#totalScore").text(totalScore += random3)
-
-
-});
-$("#crystal4").on("click", function(){
-
-    
-    $("#totalScore").text(totalScore += random4)
-
-
-});
-
-if (totalScore === randomStart) {
-    $("#wins").text("Wins: " + wins++);
-}
-else if (totalScore > randomStart){
-    $("#losses").text("Losses: " + losses++);
-};
-
-
-});
