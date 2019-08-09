@@ -2,25 +2,34 @@ wins = 1;
 losses = 1;
 totalScore = 0;
 
-$(document).ready(function ready() {
+$(document).ready(function() {
 
     var random1 = Math.floor(Math.random() * 12 + 1);
     var random2 = Math.floor(Math.random() * 12 + 1);
     var random3 = Math.floor(Math.random() * 12 + 1);
     var random4 = Math.floor(Math.random() * 12 + 1);
     randomStart = Math.floor(Math.random() * 120 + 19);
+     $("#random").text(randomStart);
+
+    function reset(){
+    random1 = Math.floor(Math.random() * 12 + 1);
+    random2 = Math.floor(Math.random() * 12 + 1);
+    random3 = Math.floor(Math.random() * 12 + 1);
+    random4 = Math.floor(Math.random() * 12 + 1);
+    randomStart = Math.floor(Math.random() * 120 + 19);
     
     
 
 
     $("#random").text(randomStart);
+    }
 
     function winner() {
         if (totalScore === randomStart) {
             totalScore = 0;
             $("#wins").text("Wins: " + wins++);
             $("#winslose").text("You win!!!");
-            ready();
+            reset();
             
             
     
@@ -31,7 +40,7 @@ $(document).ready(function ready() {
             $("#losses").text("Losses: " + losses++);
             $("#winslose").text("You lose!!!!!");
             $("totalScore").text("0")
-            ready();
+            reset();
         }
     }   
 
