@@ -10,6 +10,8 @@ $(document).ready(function() {
     var random4 = Math.floor(Math.random() * 12 + 1);
     randomStart = Math.floor(Math.random() * 120 + 19);
      $("#random").text(randomStart);
+     
+
 
     function reset(){
     random1 = Math.floor(Math.random() * 12 + 1);
@@ -18,10 +20,8 @@ $(document).ready(function() {
     random4 = Math.floor(Math.random() * 12 + 1);
     randomStart = Math.floor(Math.random() * 120 + 19);
     $("#totalScore").text(totalScore)
-  
-
-
-    $("#random").text(randomStart);
+     $("#random").text(randomStart);
+     
     }
 
     function winner() {
@@ -53,6 +53,9 @@ $(document).ready(function() {
 
         $("#totalScore").text(totalScore += random1)
         winner();
+        if(totalScore > 0) {
+            $("#winslose").text("")
+        }
 
     });
 
@@ -60,6 +63,9 @@ $(document).ready(function() {
 
         $("#totalScore").text(totalScore += random2)
         winner();
+        if(totalScore > 0) {
+            $("#winslose").text("")
+        }
 
     });
 
@@ -67,14 +73,22 @@ $(document).ready(function() {
 
         $("#totalScore").text(totalScore += random3)
         winner();
+        if(totalScore > 0) {
+            $("#winslose").text("")
+        }
 
     });
     $("#crystal4").on("click", function () {
 
         $("#totalScore").text(totalScore += random4)
         winner();
+        if(totalScore > 0) {
+            $("#winslose").text("")
+        }
 
     });
+
+   
 
 
 
