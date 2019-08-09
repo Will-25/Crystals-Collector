@@ -17,8 +17,8 @@ $(document).ready(function() {
     random3 = Math.floor(Math.random() * 12 + 1);
     random4 = Math.floor(Math.random() * 12 + 1);
     randomStart = Math.floor(Math.random() * 120 + 19);
-    
-    
+    $("#totalScore").text(totalScore)
+  
 
 
     $("#random").text(randomStart);
