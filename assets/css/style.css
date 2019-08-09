@@ -15,7 +15,7 @@ body {
     font-size: 20px;
     Max-width: 35%;
     margin-left: 40px;
-    height:280px;
+    height:400px;
     background-color:white;
     padding: 10px;
 }
@@ -33,14 +33,13 @@ body {
 #winslose {
     background-color: white;
     float:left;
-    
     height: 150px;
-    width: 387px;
+    width: 368px;
     margin-bottom: 10px;
     margin-left: 15px;
     margin-top: 15px;
-    text-align: center;
-    line-height: 140px;
+    padding-left: 20px;
+    line-height: 50px;
     
 }
 

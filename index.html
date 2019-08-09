@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystals Collector</title>
 </head>
 
@@ -28,19 +29,22 @@
         <br>
         <p>Each time the game starts, the game will change the values of the crystals</p>
     </div>
-    <div id="random">lorem</div>
+    <div id="random"></div>
 
-    <div id="winslose">lorem</div>
+    <div id="winslose">
+        <div id="wins">Wins: 0</div>
+        <div id="losses">Losses: 0</div>
+    </div>
 
 
     <div id="crystals">
         <button id="crystal1"><img id="purple" src="assets/images/crystal.jpg"></button>
         <button id="crystal2"><img id="blue" src="assets\images\crystal2.jpg"></button>
-        <button id="crytsal3"><img id="red" src="assets\images\crystal3.jpg"></button>
+        <button id="crystal3"><img id="red" src="assets\images\crystal3.jpg"></button>
         <button id="crystal4"><img id="pink" src="assets\images\magenta_crystal-512.png"></button>
     </div>
     <div id="scoreText">Your current score is: </div>
-    <div id="totalScore">lorem</div>
+    <div id="totalScore"></div>
 
 
 
