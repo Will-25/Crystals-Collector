@@ -1,5 +1,5 @@
 Crystals Collector
-- This app is a simple game, where upon loading it a random number is given. The crystals are also assigned a random number, the goal is to have the user attempt to match the the number in their box, with the number in the random number box
+- This app is a game where upon loading it a random number is given. The crystals are also assigned a random number, the goal is to have the user attempt to match the the number in their box, with the number in the random number box
 
 - To make this game function I needed the random numbers to be assigned right as the page is loaded. A random number is assigned, and is output to the random number box.
 

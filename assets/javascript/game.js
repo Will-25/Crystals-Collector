@@ -77,11 +77,6 @@ $(document).ready(function() {
 
     });
 
-   
-
-
-
-
 });
 
 
