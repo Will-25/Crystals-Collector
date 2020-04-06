@@ -9,5 +9,7 @@ Crystals Collector
 
 - Alternatively, if the user matches the random number perfectly, a win is tallied, and the game resets.
 
+https://will-25.github.io/Crystals-Collector/
+
 
 
