@@ -45,7 +45,6 @@ $(document).ready(function() {
         if(totalScore > 0) {
             $("#winslose").text("")
         }
-
     });
 
     $("#crystal2").on("click", function () {
