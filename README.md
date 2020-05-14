@@ -1,15 +1,26 @@
-Crystals Collector
-- This app is a game where upon loading it a random number is given. The crystals are also assigned a random number, the goal is to have the user attempt to match the the number in their box, with the number in the random number box
+# Crystals Collector
 
-- To make this game function I needed the random numbers to be assigned right as the page is loaded. A random number is assigned, and is output to the random number box.
+![main screen](/assets/images/crystals.png)
 
-- When clicking on the crystals, the value of that crystal will be added to the box containing your total number. 
+# Description
 
-- If the number in the user total box exceeds the number in the random number box, the user will bust and the game will tally a loss, and reset all values (including random number)
+**Crystals Collecter** is a game where upon loading it a random number is given. The crystals are also assigned  random numbers. The goal is for the user to match the the number in their box, with the number in the random number box.
 
-- Alternatively, if the user matches the random number perfectly, a win is tallied, and the game resets.
+# Demo
 
-https://will-25.github.io/Crystals-Collector/
+You can play it at https://will-25.github.io/Crystals-Collector/
+
+# Walkthrough
+
+When the page is loaded, a random number is assigned to the "goal score" box. Simultaneously, four random values are assigned to the crystals. When clicking on the crystals, the value of that crystal will be added to the box containing your total number. 
+
+![crystals](/assets/images/crystals2.png)
+
+If the users total matches or goes over the number in the box, the round is over. Depending on the outcome, a tally will be marked, and all numbers will reset. S
+
+![reset](/assets/images/crystals3.png)
+
+
 
 
 
