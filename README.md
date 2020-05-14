@@ -16,7 +16,7 @@ When the page is loaded, a random number is assigned to the "goal score" box. Si
 
 ![crystals](/assets/images/crystals2.png)
 
-If the users total matches or goes over the number in the box, the round is over. Depending on the outcome, a tally will be marked, and all numbers will reset. S
+If the users total matches or goes over the number in the box, the round is over. Depending on the outcome, a tally will be marked, and all numbers will reset. 
 
 ![reset](/assets/images/crystals3.png)
 
